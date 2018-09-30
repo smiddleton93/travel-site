@@ -4,8 +4,10 @@
     margin-left: -.1.25rem;
     margin-right: -.1.25rem;
     flex-wrap: wrap;
-
-    @mixin atSmall {
+    flex-direction: column;
+    
+    
+ /*   @mixin atSmall {
         align-items: center;
     }
 
@@ -13,12 +15,14 @@
         width: 100%;
         padding:;
     }
-    
+     */
+   
 
     @mixin atMedium {
 
-        align-items: flex-start;
         flex-wrap: nowrap;
+        flex-direction: row;
+        
 
         &__medium-4 {
             width: 33.33%;
@@ -27,6 +31,19 @@
             padding-bottom: 0;
             
         }
+        &__medium-6 {
+            width: 50%;
+            padding: 1.25rem;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        
+
+        &__medium-6--large-gutters {
+            padding: 2.5rem;
+            
+        }
+
 
         &__medium-4--larger {
             width: 37%;
