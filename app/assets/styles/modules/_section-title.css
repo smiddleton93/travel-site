@@ -26,4 +26,12 @@
             margin-bottom: 0;
         }
     }
+
+    &--blue {
+        color: $mainBlue;
+    }
+
+    &--b-margin {
+        margin-bottom: 2rem;
+    }
 }
