@@ -7,7 +7,7 @@
 
     &--blue {
         background-color: $mainBlue;
-        color: #fff;
+        color: #fff; 
     }
 
     &--testimonials {
